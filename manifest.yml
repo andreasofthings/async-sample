@@ -1,13 +1,15 @@
 ---
 applications:
-- name: <APP_NAME>
-  command: node app.js
-  instances: 3
+- name: async
+  # command: node app.js
+  command: python app.py
+  instances: 1
   memory: 128M
   default-route: true
-  buildpack: nodejs_buildpack
+  # buildpack: nodejs_buildpack
+  buildpack: python_buildpack
   env: 
     OPTIMIZE_MEMORY: "true"
-    SSC_USER: <USER_NAME>
-    SSC_PASSWORD: <PASSWORD>
-    SERVICE_URL: <SERVICE_URL>
+    SSC_USER: <username>
+    SSC_PASSWORD: <password>
+    SERVICE_URL: <service-url>
