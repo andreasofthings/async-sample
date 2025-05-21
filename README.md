@@ -44,7 +44,7 @@ For this workshop we will use the SAP Business Application Studio to develop a s
 
 Clone Repository:
 - Click "Clone Repository
-- Copy `https://github.com/joek/async-sample.git`
+- Copy `https://github.com/andreasofthings/async-sample.git`
 - Hit enter or click "Clone from URL..." below the input field
 
 On the left side you will find a file browser including the project.
@@ -54,8 +54,8 @@ On the left side you will find a file browser including the project.
 
 The project includes the following files:
 
-- `app.js`: Service Code
-- `package.json`: Required nodejs libraries
+- `app.py`: Service Code
+- `requirements.txt`: Required python libraries
 - `manifest.yml`: Deployment descriptor for cloud foundry
 
 *If you are not provided with a pre configured test system, you need to adjust the json structure in the `app.json` file according to the case-types available on your system*
